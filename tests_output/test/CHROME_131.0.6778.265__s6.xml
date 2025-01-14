@@ -5,9 +5,9 @@
 
   <testsuite name="test.s6"
     errors="0" failures="0" hostname="" id="" package="s6" skipped="0"
-    tests="1" time="6.044" timestamp="">
+    tests="1" time="6.138" timestamp="">
   
-    <testcase name="Laisser un avis avec erreur" classname="test.s6" time="2.969" assertions="2">
+    <testcase name="Laisser un avis avec erreur" classname="test.s6" time="3.017" assertions="2">
 
     
 

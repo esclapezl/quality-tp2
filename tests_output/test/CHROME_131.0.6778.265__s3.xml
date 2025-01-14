@@ -5,13 +5,13 @@
 
   <testsuite name="test.s3"
     errors="0" failures="1" hostname="" id="" package="s3" skipped="0"
-    tests="1" time="13.78" timestamp="">
+    tests="1" time="13.90" timestamp="">
   
-    <testcase name="Connexion réussie" classname="test.s3" time="6.868" assertions="3">
+    <testcase name="Connexion réussie" classname="test.s3" time="6.908" assertions="3">
 
     
 
-      <failure message="Testing if the URL is &#39;http://127.0.0.1:9090/admin&#39; in 5000ms - expected &#34;is &#39;http://127.0.0.1:9090/admin&#39;&#34; but got: &#34;http://127.0.0.1:9090/login&#34; (5289ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\loic\Documents\GitHub\quality-env-tests\test\s3.js:17:17)</failure>
+      <failure message="Testing if the URL is &#39;http://127.0.0.1:9090/admin&#39; in 5000ms - expected &#34;is &#39;http://127.0.0.1:9090/admin&#39;&#34; but got: &#34;http://127.0.0.1:9090/login&#34; (5293ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\loic\Documents\GitHub\quality-tp2\test\s3.js:17:17)</failure>
 
     
     </testcase>

@@ -5,9 +5,9 @@
 
   <testsuite name="test.s4"
     errors="0" failures="0" hostname="" id="" package="s4" skipped="0"
-    tests="1" time="2.922" timestamp="">
+    tests="1" time="3.218" timestamp="">
   
-    <testcase name="Connexion refusée" classname="test.s4" time="1.433" assertions="3">
+    <testcase name="Connexion refusée" classname="test.s4" time="1.584" assertions="3">
 
     
 
