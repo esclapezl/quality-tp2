@@ -1,0 +1,19 @@
+describe('S3', function() {
+
+    after(function() {
+        browser.end();
+      });
+
+    it('Connexion réussie', function(browser) {
+      browser
+        .navigateTo('http://127.0.0.1:9090/login')
+        .waitForElementVisible('body', 1000)
+    
+        .setValue('input[name="name"]', 'admin')
+        .setValue('input[name="password"]', 'admin')
+        .click('button[type="submit"]')     
+         .pause(1000)
+        .waitForElementVisible('.container', 5000)
+        .assert.urlEquals('http://127.0.0.1:9090/admin');
+    }); 
+  });
